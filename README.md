@@ -1,4 +1,11 @@
 # The file does the object detection using YOLO. It is an inference script, it load the YOLO model and after that some preprocessing and then displays the person in bounding box.
+Steps of inference code
+--> Given input image.
+--> Load YOLO model.
+--> Preprocess the given image.
+--> Pass image to the model. 
+--> Displays the image with bounding box in the person.
+
 Weights of YOLO taken from below link
 --> https://pjreddie.com/darknet/yolo/
 
